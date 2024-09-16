@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Henry Michael Ejekwu Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+
+    <!-- Header Section -->
+    <header id="main-header">
+        <div class="container">
+            <div class="header-logo">
+                <img src="./WhatsApp Image 2024-09-13 at 13.16.07_163c0777.jpg" alt="Header Image" class="header-img">
+                <h1 class="logo">Henry Michael Ejekwu</h1>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="#hero">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="hero">
+        <div class="hero-content">
+            <div class="hero-text">
+                <h2>Hello, I'm <span>Henry Michael Ejekwu</span></h2>
+                <p>As a <span>Student</span> of  Captain Elechi Amadi Polytechnic Romoula <span> with the Aim of Completing my OND Programme and grade awarding course Web Technology</span>, I create solutions that enhance user experiences and simplify everyday tasks.</p>
+            </div>
+            <div class="hero-image">
+                <img src="./WhatsApp Image 2024-09-13 at 13.16.09_6adbd4b6.jpg" alt="Henry Michael Ejekwu">
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="section">
+        <div class="container">
+            <h2>About Me</h2>
+            <div class="about-content">
+                <div class="about-image">
+                    <img src="./WhatsApp Image 2024-09-13 at 13.16.10_5a5bc125.jpg" alt="Henry Michael Ejekwu">
+                </div>
+                <div class="about-text">
+                    <p>Hello! I'm Henry Michael Ejekwu, a dedicated student with a focus on completing my OND programme and specializing in web technology. I am passionate about creating engaging digital experiences and solving complex problems. My journey at Captain Elechi Amadi has laid a strong foundation in technology and design. In my free time, I contribute to open-source projects and explore new technologies to push the boundaries of digital creativity.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+<!-- Experience Section -->
+<section id="experience" class="section">
+    <div class="container">
+        <h2>Experience</h2>
+        <div class="experience-content">
+            <div class="experience-item">
+                <i class="fas fa-car"></i>
+                <h3>Driving</h3>
+                <p>Experienced in safe and efficient driving, with a proven record of timely deliveries and excellent customer service.</p>
+            </div>
+            <div class="experience-item">
+                <i class="fas fa-database"></i>
+                <h3>Data Scientist</h3>
+                <p>Skilled in data analysis, machine learning, and statistical modeling to extract valuable insights and inform decision-making.</p>
+            </div>
+            <div class="experience-item">
+                <i class="fas fa-network-wired"></i>
+                <h3>Network Repairs</h3>
+                <p>Expert in diagnosing and repairing network issues, ensuring reliable and secure network connectivity for users.</p>
+            </div>
+            <div class="experience-item">
+                <i class="fas fa-tools"></i>
+                <h3>Computer Repairs</h3>
+                <p>Proficient in troubleshooting and repairing computer hardware and software issues to maintain optimal performance.</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+    <!-- Projects Section -->
+    <section id="projects" class="section">
+        <div class="container">
+            <h2>Projects</h2>
+            <div class="projects-carousel">
+                <div class="project-slide">
+                    <img src="https://via.placeholder.com/800x400?text=HTML+%26+CSS" alt="HTML & CSS">
+                    <h3>HTML & CSS</h3>
+                    <p>A responsive web app for managing personal tasks efficiently using HTML & CSS.</p>
+                </div>
+                <div class="project-slide">
+                    <img src="https://via.placeholder.com/800x400?text=JavaScript" alt="JavaScript">
+                    <h3>JavaScript</h3>
+                    <p>An interactive web application with advanced features built with JavaScript.</p>
+                </div>
+                <div class="project-slide">
+                    <img src="https://via.placeholder.com/800x400?text=React.js" alt="React.js">
+                    <h3>React.js</h3>
+                    <p>A modern web application template using React.js to showcase your work.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+
+    <!-- Experience Section -->
+
+    <!-- Contact Section -->
+    <section id="contact" class="section">
+        <div class="container">
+            <h2>Contact Me</h2>
+            <p>Have a question or want to work together? Fill out the form below or reach out to me via email.</p>
+            <form id="contactForm" onsubmit="return handleSubmit(event)">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" rows="5" required></textarea>
+
+                <button type="submit" class="btn">Send Message</button>
+            </form>
+            <div id="formResponse"></div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Henry Michael Ejekwu. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

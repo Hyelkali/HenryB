@@ -1,0 +1,366 @@
+/* Base Styles */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #292643;
+    color: #fff;
+}
+
+/* Header Section */
+#main-header {
+    background: url('./bg23.jpg') no-repeat center center/cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #fff;
+    padding: 20px 0; /* Space around the content */
+    border-bottom: 1px solid #700c0c; /* Bottom border for the header */
+}
+
+.header-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.header-logo {
+    display: flex;
+    align-items: center;
+    gap: 20px; /* Space between the image and text */
+}
+
+.header-img {
+    width: 180px; /* Adjust the width of the image */
+    height: 180px; /* Maintain aspect ratio */
+    border-radius: 50%; /* Optional: round the image */
+    object-fit: cover; /* Ensure the image covers the element */
+    object-position: 1px 0;
+}
+
+.logo {
+    font-size: 1.8rem; /* Adjust font size as needed */
+    color: #fff; /* Text color */
+    margin: 0; /* Remove default margin */
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    gap: 20px; /* Space between menu items */
+    list-style: none; /* Remove bullets from list */
+    margin: 0; /* Remove default margin */
+    padding: 0; /* Remove default padding */
+}
+
+nav ul li {
+    margin: 0;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff; /* Link color */
+    font-size: 1rem; /* Font size for links */
+    transition: color 0.3s; /* Smooth transition for hover effect */
+}
+
+nav ul li a:hover {
+    color: #007bff; /* Hover color for links */
+}
+
+/* Hero Section */
+#hero {
+    background: #f4f4f4;
+    padding: 80px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: url('./bg3.jpg') no-repeat center center/cover;
+    background-position: 0px 0px;
+    text-align: center;
+    color: #fff;
+}
+
+.hero-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.hero-text {
+    max-width: 50%;
+}
+
+.hero-text h2 {
+    font-size: 2.5rem;
+}
+
+.hero-text p {
+    font-size: 1.2rem;
+    margin: 20px 0;
+}
+
+.hero-image img {
+    max-width: 100%;
+    border-radius: 10px;
+}
+
+/* About Section */
+#about {
+    padding: 60px 0;
+}
+
+.about-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.about-image img {
+    max-width: 100%;
+    border-radius: 10px;
+}
+
+.about-text {
+    max-width: 50%;
+}
+
+/* Skills Section */
+#skills {
+    background: #f9f9f9;
+    padding: 60px 0;
+}
+
+.skills-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.skill-item {
+    flex: 1;
+    text-align: center;
+    padding: 20px;
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+}
+
+.skill-item i {
+    font-size: 2rem;
+    color: #333;
+}
+
+.skill-item h3 {
+    margin: 10px 0;
+}
+
+/* Projects Section */
+#projects {
+    padding: 60px 0;
+}
+
+.projects-carousel {
+    display: flex;
+    gap: 20px;
+    overflow-x: auto;
+}
+
+.project-slide {
+    flex: 1;
+    min-width: 300px;
+    text-align: center;
+}
+
+.project-slide img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+/* Experience Section */
+#experience {
+    background: #292643;
+    padding: 60px 0;
+}
+
+.experience-content {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.experience-item {
+    background: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+}
+
+/* Testimonials Section */
+#testimonials {
+    padding: 60px 0;
+}
+
+.testimonials-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.testimonial {
+    flex: 1;
+    min-width: 300px;
+    background: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+}
+
+.testimonial blockquote {
+    font-style: italic;
+}
+
+/* Contact Section */
+#contact {
+    background-color: #292643;
+    padding: 60px 0;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+form label {
+    margin-bottom: 5px;
+}
+
+form input,
+form textarea {
+    padding: 10px;
+    border: 2px solid #b31111;
+    border-radius: 5px;
+}
+
+form button {
+    padding: 10px;
+    background: #333;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+form button:hover {
+    background: #555;
+}
+
+/* Footer */
+footer {
+    background: #c0263b;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+}
+
+/* Media Queries */
+@media (max-width: 768px) {
+    .hero-content {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .hero-text {
+        max-width: 100%;
+    }
+    .header-img{
+        width: 150px;
+        height: 130px;
+    }
+
+    .about-content {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .about-image img {
+        max-width: 80%;
+    }
+
+    .skills-grid,
+    .projects-carousel,
+    .testimonials-grid {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .project-slide {
+        min-width: 80%;
+    }
+
+    nav ul {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    nav ul li {
+        margin: 10px 0;
+    }
+}
+
+@media (max-width: 480px) {
+    .hero-text h2 {
+        font-size: 1.8rem;
+    }
+
+    .hero-text p {
+        font-size: 1rem;
+    }
+
+    .skill-item i {
+        font-size: 1.5rem;
+    }
+
+    form input,
+    form textarea {
+        font-size: 0.9rem;
+    }
+}
+/* Experience Section Styles */
+#experience .experience-content {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.experience-item {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+}
+
+.experience-item i {
+    font-size: 2rem; /* Adjust icon size as needed */
+    color: #333;
+}
+
+.experience-item h3 {
+    margin: 0;
+    font-size: 1.5rem;
+    color: #333;
+}
+
+.experience-item p {
+    margin: 5px 0 0;
+    font-size: 1rem;
+    color: #666;
+}
