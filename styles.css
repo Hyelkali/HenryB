@@ -9,10 +9,9 @@ body {
 
 /* Header Section */
 #main-header {
-  
     align-items: center;
     text-align: center;
-    color: #0000;
+    color: #000;
     padding: 20px 0; /* Space around the content */
     border-bottom: 1px solid #700c0c; /* Bottom border for the header */
 }
