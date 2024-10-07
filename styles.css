@@ -9,12 +9,10 @@ body {
 
 /* Header Section */
 #main-header {
-    background: url('./bg23.jpg') no-repeat center center/cover;
-    display: flex;
-    justify-content: center;
+  
     align-items: center;
     text-align: center;
-    color: #fff;
+    color: #0000;
     padding: 20px 0; /* Space around the content */
     border-bottom: 1px solid #700c0c; /* Bottom border for the header */
 }
